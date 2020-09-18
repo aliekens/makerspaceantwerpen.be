@@ -1,0 +1,68 @@
+# Open Sans font sizing
+body { font-family: "Open Sans" }
+p { font-size:16px; }
+a { 
+	color:#333; 
+	font-weight: bold;
+	text-decoration-line: underline;
+}
+h1 { padding-bottom: 32px; }
+
+
+.container {
+  padding: 80px 120px;
+}
+
+.paars {
+  background: #610f61;
+  color: #fff;
+}
+
+.geel {
+  background: #d8d626;
+}
+
+.watermark-paars-links {
+  display: block;
+  position: relative;
+}
+
+.footer {
+  padding: 20px 120px;
+}
+.footer p { font-size: 14px; }
+
+.watermark-paars-links::after {
+  content: "";
+	background:url(http://makerspaceantwerpen.be/images/watermark-paars.png);
+	background-repeat: no-repeat;
+	background-position: -10% 50%;
+	display: block;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.watermark-geel-rechts {
+  display: block;
+  position: relative;
+}
+
+.watermark-geel-rechts::after {
+  content: "";
+	background:url(http://makerspaceantwerpen.be/images/watermark-geel.png);
+	background-repeat: no-repeat;
+	background-position: 110% 20%;
+	display: block;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+}
