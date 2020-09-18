@@ -10,7 +10,8 @@ h1 { padding-bottom: 32px; }
 
 
 .container {
-  padding: 80px 120px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .paars {
@@ -28,7 +29,8 @@ h1 { padding-bottom: 32px; }
 }
 
 .footer {
-  padding: 20px 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .footer p { font-size: 14px; }
 
