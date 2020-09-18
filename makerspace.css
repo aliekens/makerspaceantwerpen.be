@@ -39,6 +39,7 @@ h1 { padding-bottom: 32px; }
 	background:url(http://makerspaceantwerpen.be/images/watermark-paars.png);
 	background-repeat: no-repeat;
 	background-position: -10% 50%;
+	background-size: 33%;
 	display: block;
   opacity: 0.2;
   top: 0;
@@ -59,6 +60,7 @@ h1 { padding-bottom: 32px; }
 	background:url(http://makerspaceantwerpen.be/images/watermark-geel.png);
 	background-repeat: no-repeat;
 	background-position: 110% 20%;
+	background-size: 33%;
 	display: block;
   opacity: 0.2;
   top: 0;
